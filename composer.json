@@ -1,5 +1,5 @@
 {
-  "name": "gopal-g/payment",
+  "name": "hardevine/payment",
   "type": "library",
   "description": "Laravel 5.3 Package for Integration of Latest CCAvenue Payment Gateway for PHP 7.1 (Released recently) ",
   "keywords": [
@@ -12,9 +12,9 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Gopal G",
-      "email": "c4gopal@gmail.com",
-      "homepage": "https://github.com/gopal-g/ccavenue",
+      "name": "Harinder",
+      "email": "harinderdivine@gmail.com",
+      "homepage": "https://github.com/hardevine/payment",
       "role": "Developer"
     }
   ],
