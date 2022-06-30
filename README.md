@@ -1,4 +1,4 @@
-# CCAvenue Payment Gateway integration for Laravel 5.x (Supports PHP 7.1)
+# CCAvenue Payment Gateway integration for Laravel (Supports PHP 7.1)
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
@@ -18,7 +18,7 @@ The code is originially a fork of similar package by [softon/indipay](https://gi
 <b>Step 1:</b> Install package using composer
 
 ``` bash
-$ composer require gopal-g/payment
+$ composer require hardevine/payment
 ```
 <b>Step 2:</b> Add the service provider to the ``config/app.php`` file in Laravel
 
