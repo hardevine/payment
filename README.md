@@ -1,4 +1,4 @@
-# CCAvenue Payment Gateway integration for Laravel (Supports PHP 7.1)
+# CCAvenue Payment Gateway integration for Laravel (Supports PHP 7.x/8.x)
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
@@ -10,7 +10,7 @@ project, It is developed keeping in mind other payment gateways also but is limi
 
 ## Important
 
-The code is originially a fork of similar package by [softon/indipay](https://github.com/softon/indipay). But this package uses the latest SDK released by CCAvenue for ```php 7.1``` Since their old SDK didn't support that version.
+The code is originially a fork of similar package by [softon/indipay](https://github.com/softon/indipay). But this package uses the latest SDK released by CCAvenue for ```php 7.x/8.x``` Since their old SDK didn't support that version.
 
 
 ## Installation
