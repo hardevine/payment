@@ -250,6 +250,10 @@ class CCAvenueGateway implements PaymentGatewayInterface
                 //ccavenue reseponsds with a serialized url response which should be parsed
                 parse_str($response_string->getBody()->getContents(), $order_data);
 
+                if ($order_data['status'] == 1) {
+                    dd("Error occured: " . json_encode($order_data));
+                }
+                
                 return $this->getOrderStatus($order_data);
 
 
