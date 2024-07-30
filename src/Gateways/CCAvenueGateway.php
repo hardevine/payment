@@ -228,13 +228,13 @@ class CCAvenueGateway implements PaymentGatewayInterface
 
         if ($merchant_data) {
 
-            $encRequest = $this->encrypt(json_encode($merchant_data), env('CCAVENUE_WORKING_KEY'));
+            $encRequest = $this->encrypt(json_encode($merchant_data), $this->workingKey);
 
             $client = new \GuzzleHttp\Client();
 
             $order_status_params = [
                 'enc_request' => $encRequest,
-                'access_code' => env('CCAVENUE_ACCESS_CODE'),
+                'access_code' => $this->accessCode,
                 'command' => 'orderStatusTracker',
                 'request_type' => "JSON",
                 'version' => "1.1"
